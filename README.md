@@ -1,6 +1,6 @@
 # **Script Template Project**
 
-This template provides a framework for creating scripts that interact with an API using `exa-js`. Customize it to suit your project's needs.
+This template provides a framework for creating executable scripts. 
 
 ---
 
