@@ -78,7 +78,7 @@ To add a new script to the project, follow the steps below:
     ```javascript
     switch (script) {
         case 'test':
-            test(parameter || 'user'); // Pass parameters to your script
+            test(parameter || 'user'); // Pass parameters to your script or set defaults
             break;
         default:
             console.error('Unknown script. General usage: node main.js <script> <parameter>');
@@ -91,7 +91,6 @@ To add a new script to the project, follow the steps below:
 1. Save all changes.
 2. Run your script from the root directory using the node command:
 ```bash
-Copy code
 node main.js test sofia
 Replace test with your script name and sofia with the parameter you want to pass.
 ```
